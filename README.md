@@ -4,3 +4,4 @@ HTML</br>
 CSS</br>
 Sass</br>
 JavaScript</br>
+Adobe Illustrator
