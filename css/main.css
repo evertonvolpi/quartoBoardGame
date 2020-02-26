@@ -20,6 +20,10 @@ html p {
   font-size: 1vw;
 }
 
+html h1 {
+  font-size: 7vh;
+}
+
 header {
   text-align: center;
 }
@@ -197,6 +201,8 @@ main {
 @media (max-width: 650px) {
   .wrap {
     padding: 1rem 0px;
+    min-width: 80vh;
+    height: auto;
   }
 
   .menu {
@@ -204,6 +210,31 @@ main {
     flex-direction: column;
     justify-content: space-around;
     padding: 0px 2rem;
+  }
+
+  html p {
+    font-size: 3vw;
+  }
+
+  html h1 {
+    font-size: 5vh;
+  }
+
+  .waitBox, .boardBox {
+    min-height: 20vh;
+    min-width: 20vh;
+  }
+
+  .players {
+    font-size: 5vh;
+  }
+
+  .play {
+    font-size: 8vh;
+  }
+
+  .dice i {
+    font-size: 15vh;
   }
 }
 
