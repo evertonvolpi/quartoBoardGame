@@ -68,7 +68,7 @@ function boardHistory(piece, location) {//stores history of moves
         else if(positionList[i]=='1'){ row1 = row1.concat(pieceCharacteristics);}
         else if(positionList[i]=='2'){ row2 = row2.concat(pieceCharacteristics);}
         else if(positionList[i]=='3'){ row3 = row3.concat(pieceCharacteristics);}
-        else if(positionList[i]=='4'){ row3 = row3.concat(pieceCharacteristics);}
+        else if(positionList[i]=='4'){ row4 = row4.concat(pieceCharacteristics);}
     }
     checkQuarto(columnA);
     checkQuarto(columnB);
