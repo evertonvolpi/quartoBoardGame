@@ -201,7 +201,7 @@ main {
 @media (max-width: 650px) {
   .wrap {
     padding: 1rem 0px;
-    min-width: 80vh;
+    width: 60vh;
     height: auto;
   }
 
@@ -221,8 +221,8 @@ main {
   }
 
   .waitBox, .boardBox {
-    min-height: 20vh;
-    min-width: 20vh;
+    height: 15vh;
+    width: 15vh;
   }
 
   .players {
@@ -235,6 +235,10 @@ main {
 
   .dice i {
     font-size: 15vh;
+  }
+
+  .tools i {
+    font-size: 4vw;
   }
 }
 
