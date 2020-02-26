@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.12.1/css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+    <!-- <script src="js/script.js"></script> -->
+    <title>QuartoBoardGame</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1>QUARTO!</h1>
+            <p>16 pieces with 4 characteristics each: size, colour, shape and hole or flat.</br>The objective: put 4 pieces with one of the characteristics in a row, column or diagonal.</br>The players must choose the piece for the opponent and once the piece is posicioned, it doesn't move.</p>
+        </div>
+    </header>
+    <main>
+        <div class="gameSpace">            
+            <div class="wrap">
+                <div class='menu'>
+                    <div class="dice">
+                        <i class="getDice fas fa-dice"></i>
+                        <p>Let the dices help you decide</br>who's gonna be player one!</br>(click on the dices to roll'em)</p>
+                    </div>
+                    <div class='players'>
+                        <div class='player1 fas fa-user-ninja active'></div>
+                        <div class='player2 fas fa-user-ninja'></div>
+                    </div>
+                    <div class='celebration hide'><p>QUARTO!</p></div>
+                    <div class='play fas fa-play-circle'></div>
+                </div>
+
+                <div class="waitingPieces">
+                    <div piece="swgh" class="waitBox swgh" id="a1Wait"></div>
+                    <div piece="sbgh" class="waitBox sbgh" id="b1Wait"></div>
+                    <div piece="swgf" class="waitBox swgf" id="c1Wait"></div>
+                    <div piece="sbgf" class="waitBox sbgf" id="d1Wait"></div>
+                    <div piece="rwgh" class="waitBox rwgh" id="a2Wait"></div>
+                    <div piece="rbgh" class="waitBox rbgh" id="b2Wait"></div>
+                    <div piece="rwgf" class="waitBox rwgf" id="c2Wait"></div>
+                    <div piece="rbgf" class="waitBox rbgf" id="d2Wait"></div>
+                    <div piece="swdh" class="waitBox swdh" id="a3Wait"></div>
+                    <div piece="sbdh" class="waitBox sbdh" id="b3Wait"></div>
+                    <div piece="swdf" class="waitBox swdf" id="c3Wait"></div>
+                    <div piece="sbdf" class="waitBox sbdf" id="d3Wait"></div>
+                    <div piece="rwdh" class="waitBox rwdh" id="a4Wait"></div>
+                    <div piece="rbdh" class="waitBox rbdh" id="b4Wait"></div>
+                    <div piece="rwdf" class="waitBox rwdf" id="c4Wait"></div>
+                    <div piece="rbdf" class="waitBox rbdf" id="d4Wait"></div>
+                </div>
+
+                <div class="gameBoard">
+                    <div class="boardBox darker" id="a1"></div>
+                    <div class="boardBox lighter" id="b1"></div>
+                    <div class="boardBox darker" id="c1"></div>
+                    <div class="boardBox lighter" id="d1"></div>
+                    <div class="boardBox lighter" id="a2"></div>
+                    <div class="boardBox darker" id="b2"></div>
+                    <div class="boardBox lighter" id="c2"></div>
+                    <div class="boardBox darker" id="d2"></div>
+                    <div class="boardBox darker" id="a3"></div>
+                    <div class="boardBox lighter" id="b3"></div>
+                    <div class="boardBox darker" id="c3"></div>
+                    <div class="boardBox lighter" id="d3"></div>
+                    <div class="boardBox lighter" id="a4"></div>
+                    <div class="boardBox darker" id="b4"></div>
+                    <div class="boardBox lighter" id="c4"></div>
+                    <div class="boardBox darker" id="d4"></div>
+                </div>
+            </div>
+        </div>
+        <div class='tools'>
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-js-square"></i>
+            <i class="fab fa-sass"></i>
+            <i class="fab fa-font-awesome"></i>
+            <i class="fab fa-git-alt"></i>
+            <i class="fab fa-github"></i>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

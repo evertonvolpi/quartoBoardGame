@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+.rwdf, .rwdh, .rbdf, .rbdh, .swdf, .swdh, .sbdf, .sbdh {
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rwgf, .rwgh, .rbgf, .rbgh, .swgf, .swgh, .sbgf, .sbgh {
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+html {
+  font-family: "Spartan";
+  background-color: #fafafa;
+}
+
+html p {
+  font-size: 1vw;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+}
+
+.gameSpace {
+  background-color: #6495ed;
+  display: inline-block;
+}
+
+.wrap {
+  display: inline-flex;
+  padding: 2rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.dice i {
+  color: #000000;
+  font-size: 5vw;
+}
+
+.play {
+  font-size: 2vw;
+  padding: 2rem 0px 0px 0px;
+}
+
+.dice i:hover, .play:hover {
+  color: #2f4f4f;
+}
+
+.players {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #2f4f4f;
+  font-size: 2vw;
+}
+
+.players .active {
+  color: #000000;
+  transform: scale(1.2);
+}
+
+.waitingPieces {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  margin: 0px 2rem 0px 0px;
+  padding: 0px;
+  background-color: #d3d3d3;
+}
+
+.gameBoard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  margin: 0px;
+  padding: 0px;
+}
+
+.waitBox, .boardBox {
+  height: 7vw;
+  width: 7vw;
+}
+
+.darker {
+  background-color: #778899;
+}
+
+.lighter {
+  background-color: #d3d3d3;
+}
+
+.darker:hover, .lighter:hover, .squareWait:hover {
+  background-color: #b0c4de;
+}
+
+.hide {
+  display: none;
+}
+
+.selected {
+  background-color: #b0c4de;
+}
+
+.sbgh {
+  background-image: url("../img/squareBlackHole.png");
+}
+
+.sbgf {
+  background-image: url("../img/squareBlackFlat.png");
+}
+
+.swgh {
+  background-image: url("../img/squareWhiteHole.png");
+}
+
+.swgf {
+  background-image: url("../img/squareWhiteFlat.png");
+}
+
+.rbgh {
+  background-image: url("../img/roundBlackHole.png");
+}
+
+.rbgf {
+  background-image: url("../img/roundBlackFlat.png");
+}
+
+.rwgh {
+  background-image: url("../img/roundWhiteHole.png");
+}
+
+.rwgf {
+  background-image: url("../img/roundWhiteFlat.png");
+}
+
+.sbdh {
+  background-image: url("../img/squareBlackHole.png");
+}
+
+.sbdf {
+  background-image: url("../img/squareBlackFlat.png");
+}
+
+.swdh {
+  background-image: url("../img/squareWhiteHole.png");
+}
+
+.swdf {
+  background-image: url("../img/squareWhiteFlat.png");
+}
+
+.rbdh {
+  background-image: url("../img/roundBlackHole.png");
+}
+
+.rbdf {
+  background-image: url("../img/roundBlackFlat.png");
+}
+
+.rwdh {
+  background-image: url("../img/roundWhiteHole.png");
+}
+
+.rwdf {
+  background-image: url("../img/roundWhiteFlat.png");
+}
+
+.tools i {
+  padding: 1rem 0.3rem;
+  font-size: 2vw;
+}
+
+@media (max-width: 848px) {
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0px;
+  }
+
+  .waitingPieces {
+    margin: 1rem 0px;
+  }
+}
+@media (max-width: 650px) {
+  .wrap {
+    padding: 1rem 0px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 2rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
