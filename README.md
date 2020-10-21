@@ -1,4 +1,4 @@
-[Play QUARTO!](https://evolpi.github.io/quartoBoardGame/)</br>
+[Play QUARTO!](https://evertonvolpi.github.io/quartoBoardGame/)</br>
 This project involved the use of:</br>
 HTML</br>
 CSS</br>
