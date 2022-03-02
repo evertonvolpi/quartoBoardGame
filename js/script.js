@@ -102,6 +102,7 @@ function checkQuarto(list) {
         else if (list[i] == 'f') { flat++; if(flat == 4) {quarto=true;}}
         else if (list[i] == 'h') { hole++; if(hole == 4) {quarto=true;}}
     }
+    if (quarto) {window.alert('Quarto!');}
 };
 
 function selectPiece(ev) {
